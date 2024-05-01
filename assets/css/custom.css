@@ -1,0 +1,72 @@
+h1 {
+    color: #ffcd00 !important;
+}
+nav a {
+    color: #ffcd00 !important;
+}
+
+#appearance-switcher > * {
+    visibility: hidden !important;
+    width: 0px !important;
+    height: 0px !important;
+}
+
+.pdf-block .pdf-canvas {
+    border: 1px solid black;
+    direction: ltr;
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.pdf-block .paginator {
+    display: none;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.pdf-block .loadingWrapper {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+}
+
+.pdf-block .loading {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #d2d0d0;
+    border-radius: 50%;
+    border-top-color: #383838;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+/* Style buttons */
+.pdf-block .btn {
+    background-color: #ffcd00;
+    border: none;
+    color: #28292b;
+    padding: 12px 30px;
+    margin: 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.pdf-block .btn:hover {
+    background-color: #c69f00;
+}
+
+.pdf-block @keyframes spin {
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+.pdf-block @-webkit-keyframes spin {
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}

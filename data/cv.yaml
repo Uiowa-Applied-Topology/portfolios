@@ -1,0 +1,135 @@
+color:
+    textColor: "#000000"
+    secondaryTextColor: "#000000"
+    backgroundColor: "#eaedf0"
+    secondaryBackgroundColor: "#8811ee1a"
+    primaryColor: "#8811ee"
+    secondaryColor: "#8811ee1e"
+
+
+
+header:
+    name: Joseph Starr
+    title: Graduate Teaching Assistant
+    contact:
+        - address: mailto:joe@joe-starr.com
+          text: joe@joe-starr.com
+          icon: fa-regular fa-envelope
+        - address: https://github.com/Joecstarr/
+          text: Joecstarr
+          icon: fa-brands fa-github
+        - address: https://www.linkedin.com/in/joseph-c-starr/
+          text: joseph-c-starr
+          icon: fa-brands fa-linkedin
+sections:
+    - title: Education
+      icon: fa-solid fa-school
+      subsections:
+          - name: PhD in Mathematics
+            subheader: University of Iowa
+            dates: Fall 2021 - Present
+          - name: MS in Mathematics
+            subheader: University of Iowa
+            dates: Fall 2021 - Spring 2023
+          - name: Bachelor of Science in Computer Science
+            subheader: University of Michigan - Dearborn
+            dates: Fall 2013 - Fall 2016
+          - name: Bachelor of Science in CIS Mathematics
+            subheader: University of Michigan - Dearborn
+            dates: Fall 2013 - Fall 2016
+    - title: Awards
+      icon: fa-solid fa-medal
+      subsections:
+          - name: "RTG: Geometry and Topology at Iowa Graduate Fellowship"
+            summary: |-
+                Funded by [DMS-2038103](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2038103)
+            dates: Spring 23, Summer 23
+    - title: Experience
+      icon: fa-solid fa-briefcase
+      subsections:
+          - name: Graduate Fellow
+            subheader: "[University of Iowa](https://uiowa.edu)"
+            dates: 'Spring 2023, Summer 2023'
+            summary: |-
+              Funded by NSF RTG grant [DMS-2038103](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2038103)
+          - name: Mathematics Teaching Assistant
+            subheader: "[University of Iowa](https://uiowa.edu)"
+            dates: 'Fall 2021, Spring 2022, Fall 2022, Fall 2023, Spring 2024'
+          - name: Software Engineer
+            subheader: "[Western Diversified Plastics](https://westerndp.com/)"
+            dates: "Dec 2020 - Aug 2021"
+            summary: Process tooling and AUTOSAR development
+          - name: Project Engineer
+            subheader: "[Vector North America](https://Vector.com)"
+            dates: 'Jan 2017 - Dec 2020'
+            summary: |-
+              ##### Software Architect
+              * Responsible for the complete architectural design and direction of a customer project.
+              * Analysis of customer requirements and negotiation of acceptance for those requirements.
+              * Planning of team development activities.
+
+              ##### Flash Bootloader Integration
+              * Integration and testing of Off The Shelf software solutions with a focus on *Flash Bootloader* integrations.
+              * Worked with new technologies such as Ethernet, CAN-FD, and Security.
+              * Support customers in use of the *Flash Bootloader* product.
+    - title: Teaching
+      icon: fa-solid fa-pencil
+      subsections:
+          - name: MATH:1005
+            subheader: Primary Instructor
+            summary:  "Algebraic techniques, equations and inequalities, functions and graphs, exponential and logarithmic functions, systems of equations and inequalities.  [Course Listing](https://myui.uiowa.edu/my-ui/courses/dashboard.page?q.courseSubject=MATH&q.courseNumber=1005&showResults=1)"
+            dates: Fall 2022, Fall 2023
+          - name: MATH:1350
+            subheader: Discussion Section
+            summary: |-
+                Algebraic techniques and modeling; quantitative methods for treating
+                problems that arise in management and economic sciences; topics include algebra
+                techniques, functions and functional models, exponential and logarithmic functions
+                and models, and a thorough introduction to differential calculus; examples
+                and applications from management, economic sciences, and related areas; for
+                students planning to major in business.
+                [Course Listing](https://myui.uiowa.edu/my-ui/courses/dashboard.page?q.courseSubject=MATH&q.courseNumber=1350&showResults=1)
+            dates: Fall 2021, Spring 2022, Spring 2024
+          - name: MATH:5760
+            subheader: Graduate Assistant
+            summary:  "Topics in mathematical biology; canonical mathematical modeling and analysis of problems in the biological sciences; second of a two-semester sequence. [Course Listing](https://myui.uiowa.edu/my-ui/courses/dashboard.page?q.courseSubject=MATH&q.courseNumber=5760&showResults=1)"
+            dates: Spring 2024
+    - title: Conference Attendance
+      icon: fa-solid fa-users
+      subsections:
+          - dates: 'Feb 2024'
+            name: '[2024 Research in Undergraduate Mathematics Education Conference](https://www.unomaha.edu/college-of-arts-and-sciences/mathematics/conferences/sigmaa-on-rume.php)'
+          - dates: 'Jan 2024'
+            name: "[GEOTOP-A International Conference](https://seminargeotop-a.com/merida24)"
+            summary: "Contributed [https://joe-starr.com/slides/merida_24/](https://joe-starr.com/slides/merida_24/)"
+          - dates: 'Nov 2023'
+            name: "[9th Mexican Workshop on Applied Geometry and Topology](https://9mwgeometrytopology.eventos.cimat.mx/home_9atd)"
+            summary: "Contributed poster [https://joe-starr.com/posters/9mwagt/](https://joe-starr.com/posters/9mwagt/)"
+          - name: "[Tangled in Knot Theory](https://icerm.brown.edu/topical_workshops/tw-23-tkt/) "
+            summary: "Funded by ICERM and NSF RTG grant DMS-2038103"
+            dates: May 2023
+          - dates: 'Feb 2023'
+            name: '[2023 Research in Undergraduate Mathematics Education Conference](https://www.unomaha.edu/college-of-arts-and-sciences/mathematics/conferences/sigmaa-on-rume.php)'
+          - dates: 'Nov 2022'
+            name: "[8th Mexican Workshop on Applied Geometry and Topology](https://8mwgeometrytopology.eventos.cimat.mx/home_8mwtopology)"
+    - title: Invited Research Talks
+      icon: fa-solid fa-users
+      subsections:
+          - dates: 'Nov 2023'
+            name: 'University of Michigan - Dearborn Colloquia'
+            summary: "[The Tanglenomicon: Tabulation of two string tangles](https://www.dropbox.com/scl/fi/mxetfathb0gby0nfp7t9k/2023-11-15_Colloquium_Starr.pdf?rlkey=cl07qn56q0saos0hzauxo6758&e=1&dl=0)"
+    - title: Service
+      icon: fa-solid fa-handshake
+      subsections:
+          - name: Heartland Partnership Talk
+            summary: Speaking series as outreach to midwest colleges. [Constructing the Jones polynomial to save the world](https://joe-starr.com/slides/zombie_jones/)
+            dates: Fall 2023, Spring 2024
+          - name: Webmaster University of Iowa Math Graduate Board
+            dates: Current
+          - name: Panel Participant STEM Career Panel
+            dates: Feb 2023
+            summary: '[Explore Career Paths in Mathematics and Statistics: Alumni Panel Discussion](https://umdearborn.edu/events/explore-career-paths-mathematics-and-statistics)'
+          - name: University of Iowa Exploring Majors Fair Department Representative
+            dates: Fall 2023, Spring 2023, Fall 2022
+            summary: 'The Exploring Majors Fair on each Hawkeye Visit Day connects prospective
+              undergraduate students with departments of their interest. '

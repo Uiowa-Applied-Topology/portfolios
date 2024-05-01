@@ -1,0 +1,15 @@
+name = "dracula"
+
+[dark]
+  primary = "#bd93f9"
+  link = "#bd93f9"
+  link_hover = "#bd93f9"
+  background = "#282a36"
+  home_section_odd = "#282a36"
+  home_section_even = "#282a36"
+  text = "#f8f8f2"
+  border-color = "#bd93f9"
+  menu_primary = "#282a36"
+  menu_text = "#f8f8f2"
+  menu_text_active = "#bd93f9"
+  menu_title = "#bd93f9"
